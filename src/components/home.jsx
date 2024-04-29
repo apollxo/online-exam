@@ -1,13 +1,13 @@
-import image1  from '../assets/image1.png'
-import image2 from '../assets/image2.svg'
-import image3 from '../assets/image3.svg'
-import image4 from '../assets/image4.svg'
-import image5 from '../assets/image5.svg'
-import image6 from '../assets/image6.svg'
-import image7 from '../assets/image7.svg'
-import image8 from '../assets/image8.svg'
-import image9 from '../assets/image9.svg'
-import image10 from '../assets/image10.svg'
+// import image1  from '../assets/image1.png'
+// import image2 from '../assets/image2.svg'
+// import image3 from '../assets/image3.svg'
+// import image4 from '../assets/image4.svg'
+// import image5 from '../assets/image5.svg'
+// import image6 from '../assets/image6.svg'
+// import image7 from '../assets/image7.svg'
+// import image8 from '../assets/image8.svg'
+// import image9 from '../assets/image9.svg'
+// import image10 from '../assets/image10.svg'
 
 import CountUp, { useCountUp } from 'react-countup';
 function Home(){
@@ -45,7 +45,7 @@ function Home(){
                     </div>
                 </div> 
                 <div className="w-1/2 flex justify-center">
-                    <img src={image1} className='w-[370px] h-[370px] shadow-2xl' alt="" />
+                    <img src='./images/image1.png' className='w-[370px] h-[370px] shadow-2xl' alt="" />
                 </div>
             </div>
 
@@ -53,9 +53,9 @@ function Home(){
             {/* part2 */}
 
             <div className="h-[620px] bg-blue-700 flex  flex-wrap max-w-full">
-                <img src={image2} alt="" className='h-[390px] w-[416px] mt-[355px]' />
-                <img src={image3} alt="" className='h-[370px] w-[406px] mt-[180px]'/>
-                <img src={image4} alt="" className='h-[390px] w-[418px] mt-[95px]'/>
+                <img src='./images/image2.svg' alt="" className='h-[390px] w-[416px] mt-[355px]' />
+                <img src='./images/image3.svg' alt="" className='h-[370px] w-[406px] mt-[180px]'/>
+                <img src='./images/image4.svg' alt="" className='h-[390px] w-[418px] mt-[95px]'/>
             </div>
 
 
@@ -77,7 +77,7 @@ function Home(){
 
                     <a href="">
                         <div className="w-[450px] h-[375px] bg-[#edc1c1] flex-col justify-evenly ml-[68px] pt-[30px]  pl-[20px] rounded-[7px] shadow-lg shadow-[#36366d]">
-                            <img src={image5} alt="" className='h-[120px] w-[102px] m-[10px]'/>
+                            <img src='/images/image5.svg' alt="" className='h-[120px] w-[102px] m-[10px]'/>
                             <h1 className='text-[24px] text-[#1D4645] font-bold m-[10px] pt-[30px]'>Math</h1>
                             <p className="text-[#33333380] text-[16px] font-['Commissioner'] m-[10px]">Sky was cloudless and of a deep dark blue spectacle before us was indeed </p>
                         </div>
@@ -86,7 +86,7 @@ function Home(){
 
                     <a href="">
                         <div className="w-[450px] h-[275px] bg-[#edc1c1] flex-col justify-evenly ml-[68px] pt-[30px]  pl-[20px] rounded-[7px] shadow-lg shadow-[#5ec479] ">
-                            <img src={image6} alt="" className='h-[120px] w-[102px] m-[10px]'/>
+                            <img src='./images/image6.svg' alt="" className='h-[120px] w-[102px] m-[10px]'/>
                             <h1 className='text-[24px] text-[#1D4645] font-bold m-[10px]'>English</h1>
                             <p className="text-[#33333380] text-[16px] font-['Commissioner'] m-[10px]">Even the all-powerful Pointing has no control about the blind texts.</p>
                         </div>
@@ -95,7 +95,7 @@ function Home(){
 
                     <a href="">
                         <div className="w-[450px] h-[275px] bg-[#edc1c1] flex-col justify-evenly ml-[68px] pt-[30px]  pl-[20px] rounded-[7px] shadow-lg shadow-[#0bafab] ">
-                            <img src={image7} alt="" className='h-[120px] w-[102px] m-[10px]'/>
+                            <img src='./images/image7.svg' alt="" className='h-[120px] w-[102px] m-[10px]'/>
                             <h1 className='text-[24px] text-[#1D4645] font-bold m-[10px]'>Physics</h1>
                             <p className="text-[#33333380] text-[16px] font-['Commissioner'] m-[10px]">However a small line of blind text by the name.</p>
                         </div>
@@ -104,7 +104,7 @@ function Home(){
 
                     <a href={'#'}>
                         <div className="w-[450px] h-[375px] bg-[#ffffff] flex-col justify-evenly ml-[68px] pt-[30px]  pl-[20px] rounded-[7px] shadow-lg shadow-[#505555]">
-                            <img src={image8} alt="" className='h-[120px] w-[102px] m-[10px]'/>
+                            <img src='./images/image8.svg' alt="" className='h-[120px] w-[102px] m-[10px]'/>
                             <h1 className='text-[24px] text-[#1D4645] font-bold m-[10px]'>Basic Knowledge</h1>
                             <p className="text-[#33333380] text-[16px] font-['Commissioner'] m-[10px]">Text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
                         </div>
@@ -120,13 +120,13 @@ function Home(){
                     <p className="text-[36px] text-center font-['Montserrat'] mb-[22px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
                     <div id="image" className='grid grid-cols-3 gap-0 '>
                         {[...Array(6)].map((_, index) => (
-                            <img key={index} src={image9} alt="" className='w-[150px] h-[76px] m-0 p-0' />
+                            <img key={index} src='./images/image9.svg' alt="" className='w-[150px] h-[76px] m-0 p-0' />
                         ))} 
                     </div>
                 </div>
 
                 <div className='flex flex-col w-1/2 mx-[12px] border-[1.5px] border-black border-solid'>
-                    <img src={image10} alt="" className='max-w-full '/>
+                    <img src='./images/image10.svg' alt="" className='max-w-full '/>
                     <div className='p-[22px]'>
                         <p className="text-[44px]  font-['Montserrat'] font-medium text-center pt-3 ">Sed ut perspiciatis unde omnis</p>
 

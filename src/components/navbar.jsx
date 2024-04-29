@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.svg'
+
 const Navbar = () => {
     return (
         <nav className="flex items-center justify-between px-4 py-2 bg-white text-blue">
             
             <Link to="/" className="font-bold text-xl"><div>
                 {/* Place your logo image or component here */}
-                <img src={logo} alt="Logo" className="h-8 ml-[12px]" />
+                <img src='./images/logo.svg' alt="Logo" className="h-8 ml-[12px]" />
             </div></Link>
 
             <div className="flex items-center">

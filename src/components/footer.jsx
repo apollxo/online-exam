@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import facebook  from '../assets/logos/facebook.svg'
-import twitter  from '../assets/logos/twitter.svg'
-import instagram  from '../assets/logos/instagram.svg'
+// import facebook  from '../assets/logos/facebook.svg'
+// import twitter  from '../assets/logos/twitter.svg'
+// import instagram  from '../assets/logos/instagram.svg'
 function Footer(){
 
     const sections = [
@@ -56,9 +56,9 @@ function Footer(){
                 <p className="font-['Montserrat'] text-[15px] w-1/2 ml-[130px]">© Photo, Inc. 2023. We love our users!</p>
                 <div className='w-1/2 flex flex-row justify-end gap-[4px]'>
                     <p className="font-['Montserrat'] text-center text-[17px] text-black mt-2 mr-1">Follow us:</p>
-                    <a href={'#'}><img src={facebook} alt="" /></a>
-                    <a href={'#'}><img src={twitter} alt="" /></a>
-                    <a href={'#'}><img src={instagram} alt="" /></a>
+                    <a href={'#'}><img src='./images/logos/facebook.svg' alt="" /></a>
+                    <a href={'#'}><img src='./images/logos/twitter.svg' alt="" /></a>
+                    <a href={'#'}><img src='./images/logos/instagram.svg' alt="" /></a>
                 </div>
             </div>
         </footer>
